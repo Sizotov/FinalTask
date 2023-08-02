@@ -16,6 +16,9 @@ public class Main {
                 newIndex++;
             }
         }
+        System.out.println("Массив строк, длина которых <= 3 символам: ");
+        for (int i = 0; i < newIndex; i++) {
+            System.out.println(newStrings[i]);
+        }
     }
-
 }
